@@ -41,6 +41,7 @@
 		5CDE6F0B2662AC67002DDBE7 /* TrackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F0A2662AC67002DDBE7 /* TrackManager.swift */; };
 		5CDE6F0D2662ADFA002DDBE7 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F0C2662ADFA002DDBE7 /* Track.swift */; };
 		5CDE6F0F2662B153002DDBE7 /* Extension+AVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F0E2662B153002DDBE7 /* Extension+AVPlayerItem.swift */; };
+		5CDE6F112663C91F002DDBE7 /* TrackCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F102663C91F002DDBE7 /* TrackCollectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		5CDE6F0A2662AC67002DDBE7 /* TrackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackManager.swift; sourceTree = "<group>"; };
 		5CDE6F0C2662ADFA002DDBE7 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		5CDE6F0E2662B153002DDBE7 /* Extension+AVPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+AVPlayerItem.swift"; sourceTree = "<group>"; };
+		5CDE6F102663C91F002DDBE7 /* TrackCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCollectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				5CDE6EAD2662A254002DDBE7 /* HomeViewController.swift */,
 				5CDE6EDA2662A5FC002DDBE7 /* TrackCollectionViewCell.swift */,
+				5CDE6F102663C91F002DDBE7 /* TrackCollectionHeaderView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				5CDE6EAA2662A254002DDBE7 /* AppDelegate.swift in Sources */,
 				5CDE6EAC2662A254002DDBE7 /* SceneDelegate.swift in Sources */,
 				5CDE6F0D2662ADFA002DDBE7 /* Track.swift in Sources */,
+				5CDE6F112663C91F002DDBE7 /* TrackCollectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

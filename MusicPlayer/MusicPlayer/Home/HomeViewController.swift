@@ -41,6 +41,16 @@ extension HomeViewController : UICollectionViewDataSource {
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        switch kind {
+        case UICollectionView.elementKindSectionHeader:
+            return UICollectionReusableView()
+        default:
+            return UICollectionReusableView()
+        }
+    }
+    
+    
     
 }
 
