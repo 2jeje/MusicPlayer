@@ -82,7 +82,7 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-tb-4vF">
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ibr-tb-4vF">
                                             <rect key="frame" x="40" y="73" width="333" height="200"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="200" id="6pW-FZ-qNm"/>
