@@ -45,6 +45,7 @@
 		5CDE6F142663CF7A002DDBE7 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F132663CF7A002DDBE7 /* PlayerViewController.swift */; };
 		5CDE6F162663CF8B002DDBE7 /* SimplePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F152663CF8B002DDBE7 /* SimplePlayer.swift */; };
 		5CDE6F182663CF9B002DDBE7 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CDE6F172663CF9B002DDBE7 /* Player.storyboard */; };
+		5CDE6F1B26666C31002DDBE7 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDE6F1A26666C31002DDBE7 /* DefaultStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,7 @@
 		5CDE6F132663CF7A002DDBE7 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		5CDE6F152663CF8B002DDBE7 /* SimplePlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePlayer.swift; sourceTree = "<group>"; };
 		5CDE6F172663CF9B002DDBE7 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		5CDE6F1A26666C31002DDBE7 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		5CDE6EA82662A254002DDBE7 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				5CDE6F1926666C20002DDBE7 /* Style */,
 				5CDE6F122663CF66002DDBE7 /* Player */,
 				5CDE6F092662AC4E002DDBE7 /* Track */,
 				5CDE6EDC2662A87E002DDBE7 /* Resources */,
@@ -248,6 +251,14 @@
 				5CDE6F172663CF9B002DDBE7 /* Player.storyboard */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		5CDE6F1926666C20002DDBE7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				5CDE6F1A26666C31002DDBE7 /* DefaultStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -405,6 +416,7 @@
 			files = (
 				5CDE6F0F2662B153002DDBE7 /* Extension+AVPlayerItem.swift in Sources */,
 				5CDE6EDB2662A5FC002DDBE7 /* TrackCollectionViewCell.swift in Sources */,
+				5CDE6F1B26666C31002DDBE7 /* DefaultStyle.swift in Sources */,
 				5CDE6EAE2662A254002DDBE7 /* HomeViewController.swift in Sources */,
 				5CDE6F0B2662AC67002DDBE7 /* TrackManager.swift in Sources */,
 				5CDE6F162663CF8B002DDBE7 /* SimplePlayer.swift in Sources */,
